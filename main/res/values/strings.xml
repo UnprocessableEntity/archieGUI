@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">archie</string>
+    <string name="heyThere">Hey there!</string>
+    <string name="ImArchie">I AM ARCHIE</string>
+    <string name="archieTag">Your Farm Assistant!</string>
+    <string name="learnMore">Learn More</string>
+    <string name="archieImg">Archie</string>
+    <string name="archieNavId">ARCHIE</string>
+    <string name="btnTest">TEST</string>
+    <string name="archieViewtxt">Archie\'s View</string>
+    <string name="viewTxt">VIEW</string>
+    <string name="archieLoctxt">LOCATION</string>
+    <string name="archieStatusTxt">STATUS</string>
+    <string name="title_activity_archie_loc">Map</string>
+    <string name="ArchieStatus">Archie\'s Status</string>
+    <string name="tempTxt">Today is something degrees</string>
+</resources>
