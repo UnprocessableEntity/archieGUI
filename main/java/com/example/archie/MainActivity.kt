@@ -21,7 +21,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun goLoc(view: View) {
-        // uses google maps?
+        val intent = Intent(this, Activity_ArchieLocation::class.java)
+        startActivity(intent)
     }
 
     fun goStatus(view: View) {
