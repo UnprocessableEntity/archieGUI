@@ -24,4 +24,7 @@
     <string name="locdef">Find Archie\'s location in Google Maps</string>
     <string name="statusdef">Chech the current weather, Archie\'s battery and pesticide status</string>
     <string name="imageSource"><![CDATA[<a href=\"https://www.freepik.com/vectors/people\">People vector created by pch.vector - www.freepik.com</a>]]></string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo</string>
+    <string name="title_activity__archie_location">Map</string>
+
 </resources>
