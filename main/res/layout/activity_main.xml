@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmain"
+    android:contentDescription="@string/imageSource"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/archieLogoId"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:contentDescription="@string/archieImg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.484"
+        app:srcCompat="@drawable/archie" />
+
+    <TextView
+        android:id="@+id/archieTagID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/archieTag"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/archieLogoId"
+        app:layout_constraintVertical_bias="0.0"
+        tools:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/archieTagID"
+        app:layout_constraintVertical_bias="0.515">
+
+        <ImageButton
+            android:id="@+id/btnLearn"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20px"
+            android:layout_weight="1"
+            android:background="@drawable/infoico"
+            android:contentDescription="@string/learnMore"
+            android:onClick="goLearn" />
+
+        <ImageButton
+            android:id="@+id/btnLoc"
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40px"
+            android:layout_marginRight="40px"
+            android:layout_weight="1"
+            android:background="@drawable/locico"
+            android:contentDescription="@string/archieLoctxt"
+            android:onClick="goLoc" />
+
+        <ImageButton
+            android:id="@+id/btnStat"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/statico" />
+
+        <ImageButton
+            android:id="@+id/btnView"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="60px"
+            android:layout_weight="1"
+            android:background="@drawable/ico4" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

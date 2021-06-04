@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient3"
+    android:paddingLeft="15sp"
+    tools:context=".archieinfo">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="256dp"
+        android:layout_height="162dp"
+        android:layout_marginTop="530dp"
+        android:contentDescription="@string/tempValue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/sun" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="369dp"
+        android:layout_height="643dp"
+        android:orientation="vertical"
+        android:paddingLeft="30sp"
+        android:paddingTop="20sp"
+        android:paddingRight="30sp"
+        android:paddingBottom="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/archieInfoLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="86dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="30sp"
+            android:contentDescription="@string/archieImg"
+            app:srcCompat="@drawable/archie" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/infoOneId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="10sp"
+                    android:maxEms="25"
+                    android:text="@string/infoOneValue"
+                    android:textSize="14sp"
+                    android:textStyle="italic" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20sp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/viewfeatid"
+                        android:layout_width="106dp"
+                        android:layout_height="wrap_content"
+                        android:onClick="goView"
+                        android:text="@string/viewTxt" />
+
+                    <TextView
+                        android:id="@+id/viewdeffeat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="20sp"
+                        android:paddingTop="10sp"
+                        android:text="@string/viewdef"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30sp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/locfeatid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="goLoc"
+                        android:text="@string/archieLoctxt" />
+
+                    <TextView
+                        android:id="@+id/locdefid"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="20sp"
+                        android:text="@string/locdef"
+                        android:textSize="14sp"
+                        tools:paddingTop="8sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30sp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/statfeatid"
+                        android:layout_width="109dp"
+                        android:layout_height="wrap_content"
+                        android:onClick="goStatus"
+                        android:text="@string/archieStatusTxt" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="20sp"
+                        android:text="@string/statusdef"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

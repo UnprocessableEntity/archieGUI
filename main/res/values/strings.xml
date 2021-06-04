@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">archie</string>
+    <string name="heyThere">Hey there!</string>
+    <string name="ImArchie">I AM ARCHIE</string>
+    <string name="archieTag">Your Farm Assistant!</string>
+    <string name="learnMore">Learn More</string>
+    <string name="archieImg">Archie</string>
+    <string name="archieNavId">ARCHIE</string>
+    <string name="btnTest">TEST</string>
+    <string name="archieViewtxt">Archie\'s View</string>
+    <string name="viewTxt">VIEW</string>
+    <string name="archieLoctxt">LOCATION</string>
+    <string name="archieStatusTxt">STATUS</string>
+    <string name="title_activity_archie_loc">Map</string>
+    <string name="ArchieStatus">Status</string>
+    <string name="tempValue">Temperature Unavailable</string>
+    <string name="batteryStatValue">Battery Level</string>
+    <string name="tempTxt"></string>
+    <string name="pestTxtVal">Pesticide Level</string>
+    <string name="TempImgVal">Temperature Image</string>
+    <string name="batteryValue">0%</string>
+    <string name="infoOneValue">Archie is your farm assistant that helps you to eliminated unwanted pests in your farm! You can monitor Archie using this Application. Following are the features:</string>
+    <string name="viewdef">You can see what Archie sees</string>
+    <string name="locdef">Find Archie\'s location in Google Maps</string>
+    <string name="statusdef">Chech the current weather, Archie\'s battery and pesticide status</string>
+    <string name="imageSource"><![CDATA[<a href=\"https://www.freepik.com/vectors/people\">People vector created by pch.vector - www.freepik.com</a>]]></string>
+    <string name="archieWeather">WEATHER</string>
+    <string name="src2"><![CDATA[<a href=\"https://www.vecteezy.com/free-vector/farm\">Farm Vectors by Vecteezy</a>]]></string>
+    <string name="precTxt">Precipitation</string>
+    <string name="humTxt">Humidity</string>
+    <string name="unavailableTxt">Unavailable</string>
+</resources>
